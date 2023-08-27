@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Get Insurance</title>
+    <link rel="stylesheet" href="insurance.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <a href="index.html"><img src="Agro.png" alt="logo"></a>
+                <ul>
+                    <li class="menu">Menu&#x2304;
+                        <div class="drpbtn">
+                            <a href="Risk.html">Risk Calculator</a>
+                            <a href="crops_data.html">Crop Database</a>
+                            <a href="insurance.html">Get Insurance</a>
+                            <a href="deals.html">Get Best Deals</a>
+                            <a href="Query.html">Ask Query</a>
+                        </div>
+                    </li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="login.php">Login</a></li>
+                    <li><input type="text" placeholder="&#128269; Serach "></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="filter">
+            <input type="text" id="myInput1" onkeyup="myFunction1()" placeholder="Search for name..">
+            <input type="text" id="myInput2" onkeyup="myFunction2()" placeholder="Search for insurance type..">
+        </div>
+        <div class="table">
+            <table id="myTable">
+                <tr class="header">
+                    <th style="width:20%;">Scheme Name</th>
+                    <th style="width:20%;">Insurance Type</th>
+                    <th style="width:30%;">Objective</th>
+                    <th style="width:30%;">Link</th>
+                </tr>
+                <tr>
+                    <td>Pradhan Mantri Fasal Bima Yojana (PMFBY)</td>
+                    <td>Crop Insurance</td>
+                    <td>AProvides insurance coverage and financial support to farmers in case of crop loss or damage due
+                        to natural calamities.</td>
+                    <td><a href="https://pmfby.gov.in/" target="_blank">PMFBY</a></td>
+                </tr>
+                <tr>
+                    <td>Weather-Based Crop Insurance Scheme (WBCIS)</td>
+                    <td>Weather-Based Crop Insurance</td>
+                    <td>Offers insurance coverage based on predefined weather parameters to protect farmers against
+                        adverse weather conditions.</td>
+                    <td><a href="https://www.india.gov.in/weather-based-crop-insurance-scheme-wbcis?page=2#:~:text=Weather%20Based%20Crop%20Insurance%20Scheme%20(WBCIS)%20is%20intended%20to%20provide,impact%20adversely%20the%20crop%20production." target="_blank">WBCIS</a></td>
+                </tr>
+                <tr>
+                    <td>National Agricultural Insurance Scheme (NAIS)</td>
+                    <td>Crop Insurance</td>
+                    <td>Provides comprehensive insurance coverage to farmers against yield losses due to various risks.
+                    </td>
+                    <td><a href="https://pmfby.gov.in/pdf/NAIS_SCHEME.pdf" target="_blank">NAIS</a></td>
+                </tr>
+                <tr>
+                    <td>Paramparagat Krishi Vikas Yojana (PKVY)</td>
+                    <td>Organic Farming Promotion</td>
+                    <td>Promotes organic farming practices by providing financial support and training to farmers.</td>
+                    <td><a href="https://darpg.gov.in/sites/default/files/Paramparagat%20Krishi%20Vikas%20Yojana.pdf" target="_blank">PKVY</a></td>
+                </tr>
+                <tr>
+                    <td>Rashtriya Krishi Vikas Yojana (RKVY)</td>
+                    <td>Agricultural Development</td>
+                    <td>Supports states in achieving 4% annual growth in agriculture through various projects and
+                        initiatives.</td>
+                    <td><a href="https://rkvy.nic.in/" target="_blank">RKVY</a></td>
+                </tr>
+                <tr>
+                    <td>Pradhan Mantri Kisan Sampada Yojana (PMKSY)</td>
+                    <td>Food Processing</td>
+                    <td>Aims to modernize and enhance the efficiency of food processing units, benefiting farmers and
+                        consumers.</td>
+                    <td><a href="https://www.mofpi.gov.in/Schemes/pradhan-mantri-kisan-sampada-yojana" target="_blank">PMKSY</a></td>
+                </tr>
+                <tr>
+                    <td>Livestock Insurance Scheme (LIS)</td>
+                    <td>Livestock Insurance</td>
+                    <td>Provides insurance coverage to farmers and livestock owners against the death of animals due to
+                        specified risks.</td>
+                    <td><a href="https://dahd.nic.in/related-links/livestock-insurance" target="_blank">LIS</a></td>
+                </tr>
+                <tr>
+                    <td>Pradhan Mantri Krishi Sinchai Yojana (PMKSY)</td>
+                    <td>Irrigation and Water Management</td>
+                    <td>Aims to improve water use efficiency and provide water to every field, promoting sustainable
+                        agriculture.</td>
+                    <td><a href="https://pmksy.gov.in/" target="_blank">PMKSY</a></td>
+                </tr>
+                <tr>
+                    <td>National Horticulture Mission (NHM)</td>
+                    <td>Horticulture Development</td>
+                    <td>Promotes holistic growth of the horticulture sector by supporting various activities and
+                        projects.</td>
+                    <td><a href="https://hortnet.gov.in/NHMhome_new.aspx" target="_blank">NHM</a></td>
+                </tr>
+                <tr>
+                    <td>Rashtriya Gokul Mission</td>
+                    <td>Livestock Development (Cattle)</td>
+                    <td>Aims to conserve and develop indigenous cattle breeds, enhancing the productivity and income of
+                        farmers.</td>
+                    <td><a href="https://dahd.nic.in/schemes/programmes/rashtriya_gokul_mission" target="_blank">RGM</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <div class="info">
+            <div class="logo">
+                <img src="Agro.png" alt="AgroCult">
+            </div>
+            <div id="contact" class="contact">
+                <a href="tel:+916294282480">&#128222;: +91 6294282480</a>
+                <a href="mailto:ghosalsatirtha@gmail.com">&#128231;: ghosalsatirtha@gmail.com</a>
+                <a href="https://goo.gl/maps/KWm7jsahRRGFU1fG6"><i class="fas fa-map-marker-alt"></i>: Techno India,
+                    TECHNO INDIA : EM-4/1, Sector V, Bidhannagar, Kolkata, West Bengal 700091</a>
+            </div>
+            <div class="subscribe">
+                <span>Subscribe AgroCult Newsletter</span>
+                <input type="email" name="subscribe" id="newsletter"
+                    placeholder="Enter Your Mail"><button>Subscribe</button>
+            </div>
+        </div>
+        <div class="copy">
+            <span>&copy;2023 agrocult.com | All Rights Reserved</span>
+        </div>
+    </footer>
+    <div class="top">
+        <a href="#"><img src="top.png" alt="back to top" width="80px"></a>
+    </div>
+    <script src="insurance.js"></script>
+</body>
+
+</html>
